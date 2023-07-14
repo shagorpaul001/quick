@@ -1,0 +1,143 @@
+/* common css start */
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f2656;
+  }
+/* common css end */
+
+/* header start */
+  header {
+    padding: 15px 0;
+    border: 2px solid #e1d4d4;
+  }
+  .container {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+  }
+  .logo {
+    width: 10%;
+    float: left;
+  }
+  .logo img {
+    width: 100%;
+  }
+
+  .menu {
+    width: 50%;
+    float: right;
+  }
+  .menu ul {
+    float: right;
+  }
+  .menu ul li {
+    list-style: none;
+    float: left;
+  }
+  .menu ul li a {
+    display: inline-block;
+
+    padding: 0 25px;
+    text-decoration: none;
+  }
+
+  .menu ul li:last-child a{
+    padding-right: 0;
+  }
+
+  .menu ul li a:hover {
+    color: #008aff;
+  }
+  
+/* header end */
+
+/* banner start */
+  .banner{
+    padding: 40px 0;
+  }
+  .container2{
+    text-align: center;
+  }
+  .container2 .b_h1 {
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #0F2656;
+  }
+  .container2 .b_h1 span{
+    color: #008AFF;
+  }
+  .container2 .b_p {
+   padding-top: 0px;
+  }
+
+/* banner end */
+
+/* text start */
+  .text {
+    padding: 20px 0 60px 0;
+  }
+  .container3 {
+    width: 47%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .colum_1 {
+    width: 48%;
+    float: left;
+    text-align: end;
+  }
+  .colum_1 h1 {
+    margin-bottom: 0px;
+    font-size: 70px;
+    color: #F15767;
+  
+  }
+  .colum_1 p {
+    font-size: 20px;
+    line-height: 35px;
+    color: #1D3360;
+  }
+  .colum_2 {
+    width: 48%;
+    float: right;
+  }
+  .colum_2 h1 {
+   font-size: 70px;
+   color: #0F265B;
+  }
+/* text end */
+
+/* webbanner start */
+  .web {
+    width: 90%;
+  }
+  .container4 {
+   margin: 23px;
+  }
+  .box_1 img {
+    margin: 15px;
+    width: 400px;
+  }
+
+/* webbanner end */
+
+/* footer start */
+  footer {
+    margin-top: 20px;
+    padding: 26px 0;
+    background-color: #0C66FF;
+  }
+  .container5 {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .container5 p {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(197, 197, 197);
+  }
+/* footer end */
